@@ -1,0 +1,163 @@
+/* .foot .container a{
+    border:2px #fff solid !important;
+} */
+
+:root {
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #o9i28a745;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+.foot {
+  position: static;
+  background-color: #040d21;
+  padding-top: 400px;
+  /* height:2000px; */
+}
+
+.last-links {
+  color: #333;
+  text-decoration: none !important;
+  font-size: 12px;
+}
+
+.last-links:hover {
+  color: #333;
+}
+
+.foot1 {
+  position: relative;
+  top: 380px;
+}
+/* .foot1 .foot-img{
+    
+} */
+
+.foot1 .foot-img img {
+  width: 100%;
+}
+
+.avatar {
+  height: 32px;
+  width: 32px;
+}
+.f-card {
+  background-color: #0c162d;
+  color: #8193b2;
+  box-shadow: 0 0 0 1px hsla(0, 0%, 100%, 0.1), 0 3px 2px rgba(0, 0, 0, 0.04),
+    0 7px 5px rgba(0, 0, 0, 0.02), 0 13px 10px rgba(0, 0, 0, 0.02),
+    0 22px 17px rgba(0, 0, 0, 0.02) !important;
+  border-radius: 6px !important;
+  width: 280px;
+  height: 110px;
+}
+
+.f-card .card-body {
+  padding: 16px;
+}
+p {
+  margin: 0;
+}
+.f-card .card-body img {
+  margin-right: 8px;
+}
+.card-span {
+  color: white;
+}
+.avatar {
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.r1 {
+  position: absolute;
+}
+.card1 {
+  margin-left: 250px;
+}
+.card2 {
+  margin-right: -200px;
+}
+.foot .r2 .cards .cc .card .card-con,
+.foot .r2 .cards1 .cc .card .card-con,
+.foot .r2 .cards2 .cc .card .card-con,
+.foot .r2 .cards3 .cc .card .card-con {
+  font-size: 12px;
+}
+.cards1 {
+  margin-left: 660px;
+}
+.r1 {
+  height: 1000px;
+}
+b {
+  font-weight: 500;
+}
+
+.card3 {
+  margin-left: 200px;
+}
+.cards2 {
+  margin-left: 540px;
+}
+.cards3 {
+  margin-left: 420px;
+}
+
+.f-card:hover {
+  cursor: pointer;
+  background-color: rgba(12, 22, 45, 0.4);
+  transition: background-color 0.4s;
+}
+.contribute {
+  margin: 80px 500px 0px 100px;
+}
+.contribute h1 b {
+  font-size: 72px;
+  font-weight: bolder;
+  color: #fff;
+}
+.contribute p {
+  width: 590px;
+  font-size: 24px;
+  color: #8193b2;
+}
+
+.f-sign-up,
+.f-contact-sales {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #2ea44f;
+}
+.contribute a {
+  color: #fff !important;
+  box-shadow: 0 0 0 1px -hsla(0, 0%, 100%, 0.3) inset;
+  background: none !important;
+  font-weight: 600;
+  border: 1px hsla(0, 0%, 100%, 0.3) solid;
+}
+.contribute a:hover {
+  border: 2px hsla(0, 0%, 100%, 0.3) solid;
+  background: none !important;
+}
+.contribute .f-sign-up:hover {
+  background: rgba(76, 175, 80, 0.8);
+}
+/* .curve{
+    position:static;
+    background-color: #000;
+    height:30px;
+    width:100%;
+} */

@@ -1,0 +1,339 @@
+* {
+  box-sizing: border-box;
+}
+* {
+  text-decoration: none;
+  list-style: none;
+}
+.container-xl {
+  width: 500px;
+}
+.linetime {
+  margin-left: 195px;
+  width: 2px !important;
+  background-color: #dadfe9 !important;
+}
+.msg .left {
+  margin-left: -75px !important;
+}
+.text {
+  font-size: 14px;
+  color: #2188ff !important;
+  padding: 5px !important;
+  border: 0.5px solid #804eda;
+  border-radius: 8px !important;
+  margin-left: 60px !important;
+}
+.discuss {
+  margin-left: 100px;
+}
+.start {
+  margin-left: 100px;
+}
+.col-12 .smile {
+  margin-top: 180px !important;
+  margin-left: -65px !important;
+}
+.col-11 .icon1 {
+  margin-top: 180px !important;
+  margin-left: -65px !important;
+}
+.home-git-item {
+  background-color: white;
+  margin-left: 40px !important;
+}
+.h4 .text-semibold {
+  font-size: 16px !important;
+}
+.h2-mktg1 {
+  margin-left: 10px;
+  width: 600px;
+  font-size: 64px !important;
+  line-height: 68px !important;
+}
+.h2-mktg1 {
+  letter-spacing: -0.03em !important;
+}
+.h2-mktg1 {
+  font-weight: 800 !important;
+}
+.miss {
+  font-size: 16px !important;
+}
+.blue {
+  color: #2188ff;
+}
+h2 {
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.font-mktg {
+  word-break: keep-all;
+}
+.opacity-4 {
+  opacity: 0.4;
+}
+.height-auto {
+  height: auto !important;
+}
+.width-full {
+  width: 100% !important;
+}
+.home-discussions-comp.build-in-animate .home-discussions-1 {
+  visibility: visible;
+}
+.home-discussions-1,
+.home-discussions-2 {
+  font-size: 0;
+}
+.home-discussions-comp.build-in-animate .home-discussions-2 {
+  visibility: visible;
+}
+.list-style-none {
+  list-style: none !important;
+}
+.gutter-spacious-fluid1 {
+  margin-right: -1.5rem;
+  margin-left: -1.5rem;
+}
+.pb-md-10 {
+  padding-bottom: 96px !important;
+}
+.mt-lg-n6 {
+  margin-top: -40px !important;
+}
+.flex-lg-row {
+  flex-direction: row !important;
+}
+.flex-items-center1 {
+  align-items: center !important;
+}
+.list-style-none {
+  list-style: none !important;
+}
+.home-git-log-dark,
+.home-git-log-light {
+  position: relative;
+}
+.pb-lg-6 {
+  padding-bottom: 40px !important;
+}
+
+.pt-md-11 {
+  padding-top: 112px !important;
+}
+.offset-1 {
+  margin-left: 8.33333% !important;
+}
+.col-10 {
+  width: 83.33333%;
+}
+.home-discussions-comp.build-in-animate {
+  opacity: 1;
+}
+.home-discussions-comp {
+  margin-top: -30%;
+}
+.home-discussions-comp {
+  transition: opacity 0.4s;
+}
+
+.gutter-spacious-fluid1 > [class*="col-"] {
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
+}
+.offset-lg-1 {
+  margin-left: 8.33333% !important;
+}
+.missed {
+  margin-left: 40px;
+  width: 61.66667%;
+}
+.gutter-spacious-fluid1 {
+  margin-right: -1.5rem;
+  margin-left: -1.5rem;
+}
+.body-fluid {
+  font-size: 100%;
+}
+.home-discussions-check-1.build-in-animate {
+  animation: home-discussions-check-1 2s ease-in-out 0.7s infinite;
+}
+
+.home-discussions-check-0,
+.home-discussions-check-1,
+.home-discussions-check-2,
+.home-discussions-check-3 {
+  top: 3.4%;
+  right: 10.5%;
+  opacity: 0;
+}
+.z-1 {
+  z-index: 1 !important;
+}
+.position-absolute {
+  position: absolute !important;
+}
+.home-discussions-comp.build-in-animate .home-discussions-answer {
+  box-shadow: 0 0 0 2px #28a745;
+  transition-delay: 1.5s;
+  transition-duration: 0.2s;
+  transition-property: box-shadow;
+}
+
+.text-gray-dark-mktg1 {
+  color: #040d21 !important;
+}
+.last-mb-5 {
+  margin-bottom: 32px !important;
+}
+.home-readme-comp.build-in-animate .home-readme-1 {
+  visibility: visible;
+}
+.home-readme-1,
+.home-readme-2 {
+  font-size: 0;
+}
+.py-9 {
+  padding-top: -80px !important;
+  padding-bottom: 10px !important;
+}
+.home-git-item {
+  margin-left: calc(-3rem - 13px);
+}
+.z-1 {
+  z-index: 1 !important;
+}
+.last-mr-3 {
+  margin-right: 16px !important;
+}
+.position-relative {
+  position: relative !important;
+}
+.flex-shrink-0 {
+  flex-shrink: 0 !important;
+}
+.avatar-4 {
+  width: 28px;
+  height: 28px;
+}
+
+.avatar {
+  overflow: hidden;
+  line-height: 1;
+  vertical-align: middle;
+  box-shadow: 0 0 0 1px var(--color-avatar-border);
+}
+.d-sm-block {
+  display: block !important;
+}
+.flex-shrink-0 {
+  flex-shrink: 0 !important;
+}
+.circle {
+  border-radius: 50% !important;
+}
+.text-gray-light-mktg {
+  color: #8193b2 !important;
+}
+.f5-mktg {
+  font-size: 14px !important;
+}
+.col-5-max {
+  max-width: 33.75rem;
+}
+.col-5-max {
+  width: 100%;
+}
+.f2-mktg {
+  font-size: 24px !important;
+  line-height: 32px !important;
+}
+
+.text-semibold {
+  font-weight: 500 !important;
+}
+.last-mb-5 {
+  margin-bottom: 32px !important;
+}
+.home-readme-comp.build-in-animate .home-readme-2 {
+  visibility: visible;
+}
+.home-readme-1,
+.home-readme-2 {
+  font-size: 0;
+}
+.new1 picture .img2 {
+  position: absolute !important;
+  margin-top: -200px;
+  width: 400px;
+  height: 792px;
+  margin-left: 270px;
+  border: 3px #28a745 solid;
+  border-radius: 5px;
+}
+.new1 picture {
+  width: 500px;
+  height: 700px;
+}
+.check {
+  position: absolute;
+  border: none !important;
+
+  margin: -182px 8px 200px 600px !important;
+  width: 25px !important;
+  height: 25px !important;
+}
+.new1 picture div {
+  border: 2px #28a745 solid;
+  border-radius: 3px;
+}
+.new picture img {
+  margin-left: 200px !important;
+  width: 400px !important;
+  border: 3px #ccc solid;
+  border-radius: 5px;
+  margin-top: -400px;
+  position: relative !important;
+}
+.old {
+  border: 1px #ccc solid;
+  border-radius: 10px !important;
+  margin-left: 180px;
+  width: 380px;
+}
+.old1 {
+  border: 1px #ccc solid;
+  border-radius: 10px !important;
+  width: 360px;
+  margin-top: -233px;
+  position: absolute;
+  margin-left: 280px;
+}
+.last .img3 {
+  border: 1px #ccc solid;
+  border-radius: 10px !important;
+  margin-left: 180px;
+  width: 420px !important;
+}
+.last1 .img3 {
+  border: 1px #ccc solid;
+  border-radius: 10px !important;
+  width: 380px !important;
+  margin-top: -140px;
+  position: absolute;
+  margin-left: 300px;
+}
+.pop {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+.pop.show3 {
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+}

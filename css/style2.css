@@ -1,0 +1,428 @@
+@font-face {
+  font-family: SFMonoRegular;
+  src: url("./sf-mono-cufonfonts-webfont/SFMonoRegular.woff");
+}
+@font-face {
+  font-family: "alliance-no-1";
+  src: url("./league-spartan/LeagueSpartan-Bold.otf");
+}
+
+#nav-2 {
+  position: -webkit-sticky;
+  position: sticky !important;
+  position: absolute;
+  background-color: #fff;
+  top: 0;
+  z-index: 2;
+}
+
+#nav-2 .container #navbar-nav .nav-item a {
+  color: #333 !important;
+  font-size: 16px;
+}
+
+/* #nav-2 .navbar-nav .nav-2-a {
+  font-family: "SFMonoRegular";
+} */
+
+#navbar-nav {
+  /* position:absolute; */
+  width: 100%;
+}
+
+.nav2-btn {
+  background-size: cover;
+  padding: 5px 20px;
+  background-color: #2ea44f;
+}
+.nav2-btn:hover {
+  background: rgba(76, 175, 80, 0.8);
+}
+.btnlet {
+  color: #fff;
+}
+.contribute1 {
+  background-color: #040d21;
+  border-radius: 10px;
+  width: 1500px;
+  padding: 104px 0;
+}
+
+.contribute1 .heading h1 b {
+  font-size: 70px;
+  font-weight: 700;
+  color: lightblue;
+}
+.contribute1 .heading h1 {
+  width: 700px;
+  margin: 0px 0px 64px 200px;
+}
+
+/* the timeline */
+.time ul {
+  padding: 0;
+  list-style: none;
+  width: 3px;
+  background-color: #42526d;
+  margin-left: 150px;
+}
+.time ul li .icon {
+  margin-left: -6px;
+  background-color: #040d21;
+  width: 20px;
+  height: 25px;
+  margin-top: 10px;
+}
+.time ul li .icon i {
+  color: #42526d;
+}
+
+.time ul li div p,
+.second-line li .content .info p,
+.second-line li .content p {
+  width: 500px;
+  color: #8193b2;
+  font-size: 24px;
+  font-weight: 600;
+}
+.second-line li .content .info p {
+  margin: 100px 0;
+}
+.secure-tips .first-line li .icon1 {
+  margin-left: -6px;
+  background-color: #040d21;
+  width: 20px;
+  height: 25px;
+  margin-top: 100px;
+}
+.secure-tips .first-line li .icon1 i {
+  color: #42526d;
+}
+.second-line li .content .img1,
+.second-line li .content .img2,
+.second-line li .content .img3 {
+  border-radius: 6px !important;
+  box-shadow: 0 0 0 1px hsl(0deg 0% 100% / 10%), 0 34px 65px #040d21,
+    0 2.76726px 2.21381px rgb(0 0 0 / 7%), 0 6.6501px 5.32008px rgb(0 0 0 / 4%),
+    0 12.5216px 10.0172px rgb(0 0 0 / 3%), 0 22.3363px 17.869px rgb(0 0 0 / 3%),
+    0 41.7776px 33.4221px rgb(0 0 0 / 2%), 0 100px 80px rgb(0 0 0 / 2%);
+}
+
+.second-line li .content .img1 {
+  position: absolute;
+  width: 400px;
+  margin-left: 100px;
+}
+
+.second-line li .content .img2 {
+  margin-top: 50px;
+  position: absolute;
+  width: 450px;
+  margin-left: 75px;
+}
+.second-line li .content .img3 {
+  margin-top: 100px;
+  width: 500px;
+  position: absolute;
+  margin-left: 50px;
+}
+.time ul li .content {
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-top: 2px;
+  width: 100%;
+}
+
+.time ul li .content h6 {
+  width: 100%;
+}
+.time ul li .content span,
+.second-line li .content .info p span {
+  color: white;
+}
+.time ul li .content div {
+  width: 300px;
+}
+.time ul li .content div a {
+  width: 300px;
+  color: white !important;
+  font-size: 15.8761px;
+}
+
+.time ul li .content div a i {
+  margin: 10px;
+  color: white;
+  font-size: 15px;
+}
+
+.time ul li .content div a:hover i {
+  margin-left: 15px;
+  transition: 0.5s ease;
+}
+
+.time ul li .content .user p,
+.second-line li .cc2 p {
+  color: #8193b2;
+  font-size: 14px;
+  margin-bottom: 0;
+  padding-top: 8px;
+  padding-bottom: 20px;
+}
+.time ul li .content .user p span {
+  font-weight: bold;
+}
+.time ul li .content3 div img {
+  background-image: url("./img/repo-editor-glow.svg");
+  position: absolute;
+  width: 1050px;
+}
+.time ul li .content3 .img2 img {
+  margin: 50px 0 0 -50px;
+}
+.time ul li .content3 {
+  height: 400px;
+}
+.time ul li .content .rounded img,
+.second-line li .content .rounded img {
+  width: 30px;
+  border: 0.5px none solid;
+  border-radius: 20px;
+}
+.time ul li .content .rounded {
+  width: 20px;
+  padding: 10px;
+}
+.time ul li .cc2 .user p {
+  padding: 15px;
+}
+.time ul li .cc2 .d-flex {
+  padding: 0;
+}
+.time ul li .cc2 {
+  padding-top: 0;
+}
+.time ul li .d-flex {
+  opacity: 0.3;
+}
+.fas-arrow-right {
+  width: 100px;
+}
+
+.time ul {
+  background-image: url("./img/repo-editor-glow.svg");
+  background-repeat: no-repeat;
+}
+
+.time ul li .content .card1 {
+  display: block;
+  width: 600px;
+  box-shadow: 0 0 0 1px hsl(0deg 0% 100% / 10%), 0 34px 65px #040d21,
+    0 2.76726px 2.21381px rgb(0 0 0 / 7%), 0 6.6501px 5.32008px rgb(0 0 0 / 4%),
+    0 12.5216px 10.0172px rgb(0 0 0 / 3%), 0 22.3363px 17.869px rgb(0 0 0 / 3%),
+    0 41.7776px 33.4221px rgb(0 0 0 / 2%), 0 100px 80px rgb(0 0 0 / 2%);
+  background-color: #0c162d;
+  border-radius: 6px !important;
+  transition: all 0.5s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+  margin-left: -200px;
+}
+.time ul li.show .content .card1 {
+  visibility: visible;
+  margin-left: 50px;
+  opacity: 1;
+}
+
+.time ul li .content .card1 p i {
+  font-size: 8px;
+  top: 0;
+  /* height:10px; */
+  color: #ea4aaa;
+}
+.time ul li .content .card1 p {
+  /* width:50%;  */
+  font-size: 13px;
+  font-weight: 50;
+  padding: 30px;
+  color: #fff;
+  line-height: 1.6rem;
+  font-family: "SFMonoRegular";
+}
+.time ul li .content .card1 p span {
+  color: #0dbc79;
+}
+.time ul li .content .info {
+  width: 600px;
+  margin-left: 150px;
+  margin-bottom: 0;
+  margin-left: 500px;
+  visibility: hidden;
+  transition: all 0.5s ease-in-out;
+}
+.time ul li.show .content .info {
+  margin-left: 50px;
+  visibility: visible;
+}
+
+.time ul li .opc {
+  width: 1000px;
+  opacity: 1;
+}
+.time ul li .opc .info h1 {
+  margin: 0;
+  font-size: 60px;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: lightblue;
+}
+.time ul li .opc .info p {
+  font-size: 24px;
+  margin: 0;
+}
+
+/*secure part style*/
+.secure-tips {
+  /* position:relative; */
+  background-color: #040d21;
+  border-radius: 10px;
+  width: 1500px;
+  height: 2000px;
+  margin-top: 100px;
+}
+.secure-tips .first-line {
+  padding: 100px 0 0 0;
+  list-style: none;
+  width: 2px;
+  height: 2000px;
+  background-color: #42526d;
+  margin-left: 150px;
+}
+
+.secure-tips .second-line {
+  /* position:absolute; */
+  margin-top: 100px;
+  padding: 0;
+  list-style: none;
+  width: 2px;
+  height: 1500px;
+  background-color: #42526d;
+  margin-left: 120px;
+}
+
+.secure-tips .first-line li .icon {
+  margin-left: -6px;
+  background-color: #040d21;
+  width: 20px;
+  height: 25px;
+  margin-top: 10px;
+}
+.secure-tips .first-line li .icon i {
+  color: #42526d;
+}
+
+.far-circle {
+  width: 20px;
+}
+.secure-tips .first-line li .icon-warn {
+  margin-left: -9.5px;
+  background-color: #040d21;
+  width: 20px;
+  height: 25px;
+  margin-top: 10px;
+}
+.secure-tips .second-line li div h1 {
+  font-size: 70px;
+  font-weight: 700;
+  color: lightblue;
+}
+.secure-tips .second-line li .heading {
+  padding-bottom: 100px;
+}
+.secure-tips .second-line li {
+  width: 1000px;
+}
+.second-line li div a {
+  width: 300px;
+  color: white !important;
+  font-size: 19.4158px;
+  font-weight: 600;
+}
+
+.second-line li div a i {
+  margin: 10px;
+  color: white;
+  font-size: 14px;
+}
+
+.secure-tips .second-line li .heading {
+  margin-left: 50px;
+}
+.second-line li div a:hover i {
+  margin-left: 15px;
+  transition: 0.5s ease;
+}
+.second-line .li .content {
+  width: 50%;
+}
+.second-line li .cc2 {
+  opacity: 0.3;
+  padding-left: 50px;
+}
+.second-line li .cc2 .rounded {
+  padding-top: 5px;
+}
+.second-line li .warn {
+  padding: 10px 50px;
+  color: #b08800;
+}
+.user {
+  font-family: "SFMonoRegular";
+}
+
+.time ul li .content3 .image {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.time ul li.show .content3 .image {
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+}
+
+.time ul li .content3 .img2 img {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.time ul li.show .content3 .img2 img {
+  visibility: visible;
+  opacity: 1;
+  transition: all 2s ease-in-out;
+}
+.top {
+  margin-top: 300px;
+}
+.secure-tips .second-line li .content .info {
+  margin-left: -100px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.secure-tips .second-line li.show .content .info {
+  margin-left: 100px;
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+}
+.secure-tips .second-line li .content .absolute {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+.secure-tips .second-line li.show .content .absolute {
+  visibility: visible;
+  opacity: 1;
+  transition: all 2s ease-in-out;
+}
